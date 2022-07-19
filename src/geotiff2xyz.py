@@ -1,5 +1,9 @@
-# Convert a geotiff (.tiff/.tif) into a vertical list of xyz coordinates
-# Can be used with the xyz2jpu.f90 to turn .geotiff into .jou for CUBIT use
+# Written by: Eric deKemp
+# Date created: June 25, 2022
+# Last modified: July 19, 2022
+#==============================================================================
+# Convert a geotiff (.tiff/.tif) into a vertically stacked list of xyz coordinates
+# Can be used with the xyz2jou.f90 to turn .geotiff into .jou for CUBIT surfaces
 #
 # Rasterio module is easiest to access through Anaconda, or it can be installed 
 # through pip
@@ -8,7 +12,7 @@
 #------------------------------------------------------------------------------
 # Input:
 # Only input is the geotiff file as 'inFile'. Be careful with the input file 
-# extension; geotiffs can end with '.tif' of '.tiff' which will effect reading.
+# extension; geotiffs can end with '.tif' or '.tiff' which will effect reading.
 # Provide file to convert:
 inFile = 'bathymetry_sumatra.tiff'
 #
