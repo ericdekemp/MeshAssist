@@ -1,3 +1,7 @@
+# Author: Eric deKemp (Queen's University)
+# Date created: June 25, 2022
+# Last modified: July 19, 2022
+#=============================================================================
 # Convert a geotiff (.tiff/.tif) file into a vti (.vti) file of data points in 
 # cartesian coordinate form. Can be opened in ParaView.
 #
